@@ -8,6 +8,6 @@
 int main(void)
 {
 
-printf("colton is weird");
+printf("hi\n");
 return 0;
 }
