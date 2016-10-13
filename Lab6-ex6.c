@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 int main(void) 
 {
 	char *ch;
-	ch=malloc(sizeof(char)*2);    
+	*ch=malloc(sizeof(char)*2);    
 	ch[1]='3';
 	ch[2]='a';
 	while (ch[1] > '0') 
